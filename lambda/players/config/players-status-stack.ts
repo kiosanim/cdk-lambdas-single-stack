@@ -1,4 +1,4 @@
-import {Code, Function, Runtime} from 'aws-cdk-lib/aws-lambda';
+import {Function, Runtime} from 'aws-cdk-lib/aws-lambda';
 import {Construct} from 'constructs';
 import {LambdaIntegration, RestApi} from 'aws-cdk-lib/aws-apigateway';
 import {Duration} from "aws-cdk-lib";
