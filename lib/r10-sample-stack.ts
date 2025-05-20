@@ -1,8 +1,8 @@
 import {Stack, StackProps} from 'aws-cdk-lib';
 import {Construct} from 'constructs';
 import {RestApi} from 'aws-cdk-lib/aws-apigateway';
-import {createPlayersStatus} from './players-status-stack';
-import {createMatchesStatus} from './matches-status-stack';
+import {createPlayersStatus} from '../lambda/players/config/players-status-stack';
+import {createMatchesStatus} from '../lambda/matches/config/matches-status-stack';
 
 export class R10SampleStack extends Stack {
     constructor(scope: Construct, id: string, props?: StackProps) {
